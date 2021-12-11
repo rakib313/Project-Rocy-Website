@@ -9,12 +9,14 @@ namespace ProjectRocy.Controllers
 {
     public class HomeController : Controller
     {
-        
-
-
-        public string Index()
+        public IActionResult Index()
         {
-            return "Checking";
+            return View();
+        }
+
+        public IActionResult AboutUs()
+        {
+            return View();
         }
     }
 }
